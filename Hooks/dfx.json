@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "marketplace": {
+      "type": "rust",
+      "package": "marketplace",
+      "candid": "src/marketplace.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
